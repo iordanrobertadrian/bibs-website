@@ -6,18 +6,31 @@
 <title>BIBS - your football group, organised</title>
 <meta name="description" content="BIBS organises your football group's games: sign-ups, balanced sides, match clock and history. Private and ad-free.">
 <meta name="theme-color" content="#050706">
+<meta name="color-scheme" content="dark">
 <meta property="og:title" content="BIBS - football with your mates, minus the chaos">
 <meta property="og:description" content="Sign-ups, balanced sides, clock and history for your football group.">
-<meta property="og:image" content="../assets/og.png">
+<meta property="og:image" content="https://bibs.app/assets/og-en.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://bibs.app/en/">
 <meta property="og:type" content="website">
+<meta property="og:site_name" content="BIBS">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="../assets/favicon.png">
 <link rel="apple-touch-icon" href="../assets/icon-256.png">
+<link rel="preload" href="../assets/fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/style.css">
-<link rel="alternate" hreflang="ro" href="../">
+<link rel="canonical" href="https://bibs.app/en/">
+<link rel="alternate" hreflang="ro" href="https://bibs.app/">
+<link rel="alternate" hreflang="en" href="https://bibs.app/en/">
+<link rel="alternate" hreflang="x-default" href="https://bibs.app/">
 </head>
 <body class="landing">
+<a class="skip" href="#main">Skip to content</a>
 <header class="site"><div class="wrap-wide">
-  <a class="logo" href="./"><img src="../assets/icon-256.png" alt="">BIBS</a>
+  <a class="logo" href="./"><img src="../assets/icon-64.webp" alt="" width="32" height="32">BIBS</a>
   <nav class="top" aria-label="Menu">
     <a class="hide-sm" href="#how">How it works</a>
     <a class="hide-sm" href="#features">Features</a>
@@ -28,12 +41,12 @@
   </nav>
 </div></header>
 
-<main>
+<main id="main">
 <section class="hero-x"><div class="wrap-wide hero-grid">
   <div class="hero-copy">
     <span class="eyebrow"><span class="dot"></span>Free beta &middot; iOS and Android</span>
     <h1>Football with your mates, <span class="grad">minus the chaos.</span></h1>
-    <p class="lead">Sign-ups that open by themselves, balanced sides in seconds and a clock at the pitch. BIBS keeps track, you just play.</p>
+    <p class="lead">Sign-ups that open by themselves, balanced sides in seconds and a match clock everyone can see. BIBS keeps track, you just play.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="#download">Start for free</a>
       <a class="btn btn-ghost" href="#how">See how it works</a>
@@ -47,11 +60,11 @@
 
   <div class="stage" aria-hidden="true">
     <div class="float notif">
-      <img src="../assets/icon-256.png" alt="">
+      <img src="../assets/icon-64.webp" alt="" width="36" height="36">
       <div><b>The sides are ready</b><small>See your side and which shirt to bring.</small></div>
     </div>
-    <div class="phone back"><img src="../assets/screens/match_en.jpg" alt=""></div>
-    <div class="phone front"><img src="../assets/screens/home_en.jpg" alt=""></div>
+    <div class="phone back"><img src="../assets/screens/match_en.webp" alt="" width="660" height="1469"></div>
+    <div class="phone front"><img src="../assets/screens/home_en.webp" alt="" width="660" height="1469" fetchpriority="high"></div>
   </div>
 </div></section>
 
@@ -64,7 +77,7 @@
   <div class="steps">
     <div class="step"><h3>Create your group</h3><p>Pick the day, the time and how many players. Share an invite link or code and the team is set.</p></div>
     <div class="step"><h3>Players sign up</h3><p>The list opens by itself every week. First come, first in; the rest wait, and free spots are filled automatically.</p></div>
-    <div class="step"><h3>BIBS picks the sides</h3><p>Balanced sides based on everyone's level, then clock and history. You just play.</p></div>
+    <div class="step"><h3>BIBS picks the sides</h3><p>Balanced sides based on everyone's level, plus a shared clock and full history. You just play.</p></div>
   </div>
 </div></section>
 
@@ -81,7 +94,7 @@
       <p>Sign-ups open automatically on the day and at the time you choose. Everyone joins with one tap, and once the list is full the rest go on the waiting list.</p>
       <ul class="ticks"><li>Opens by itself every week</li><li>A freed spot goes to the next one waiting</li><li>Notified when the list opens and when you get in</li></ul>
     </div>
-    <div class="feature-shot"><div class="phone"><img src="../assets/screens/signup_en.jpg" alt="BIBS app screenshot: Sign-ups" loading="lazy" width="660" height="1469"></div></div>
+    <div class="feature-shot"><div class="phone"><img src="../assets/screens/signup_en.webp" alt="BIBS app screenshot: Sign-ups" loading="lazy" width="660" height="1469"></div></div>
   </div>
   <div class="feature flip">
     <div class="feature-copy">
@@ -90,7 +103,7 @@
       <p>BIBS splits players into sides that are as even as possible, by rating, position and who has played together before. Everyone sees their side and which shirt to bring.</p>
       <ul class="ticks"><li>Two, three or more sides</li><li>Laid out on a pitch, by position</li><li>A coin toss decides who kicks off</li></ul>
     </div>
-    <div class="feature-shot"><div class="phone"><img src="../assets/screens/match_en.jpg" alt="BIBS app screenshot: Sides" loading="lazy" width="660" height="1469"></div></div>
+    <div class="feature-shot"><div class="phone"><img src="../assets/screens/match_en.webp" alt="BIBS app screenshot: Sides" loading="lazy" width="660" height="1469"></div></div>
   </div>
   <div class="feature">
     <div class="feature-copy">
@@ -99,7 +112,7 @@
       <p>An admin starts the clock and everyone sees the same time, live. It stops by itself when time is up, even if nobody is looking.</p>
       <ul class="ticks"><li>You choose how long a game lasts</li><li>Pause and resume with one tap</li><li>Next game with one tap</li></ul>
     </div>
-    <div class="feature-shot"><div class="phone"><img src="../assets/screens/clock_en.jpg" alt="BIBS app screenshot: Match day" loading="lazy" width="660" height="1469"></div></div>
+    <div class="feature-shot"><div class="phone"><img src="../assets/screens/clock_en.webp" alt="BIBS app screenshot: Match day" loading="lazy" width="660" height="1469"></div></div>
   </div>
   <div class="feature flip">
     <div class="feature-copy">
@@ -108,7 +121,7 @@
       <p>Your squad with everyone's position, rating and games played. History shows every week and who comes most often.</p>
       <ul class="ticks"><li>Attendance over recent games</li><li>Search and sort the squad</li><li>Rating reviews, voted on by admins</li></ul>
     </div>
-    <div class="feature-shot"><div class="phone"><img src="../assets/screens/roster_en.jpg" alt="BIBS app screenshot: Squad and history" loading="lazy" width="660" height="1469"></div></div>
+    <div class="feature-shot"><div class="phone"><img src="../assets/screens/roster_en.webp" alt="BIBS app screenshot: Squad and history" loading="lazy" width="660" height="1469"></div></div>
   </div>
   <div class="minis">
     <div class="mini"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 10-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 01-3.4 0"/></svg></div><h3>Useful notifications</h3><p>List open, spot freed, sides ready. Everyone picks what they get.</p></div>
@@ -166,7 +179,7 @@
 
 <section class="section" id="download"><div class="wrap-wide">
   <div class="cta-band">
-    <img src="../assets/icon-256.png" alt="BIBS icon">
+    <img src="../assets/icon-160.webp" alt="BIBS icon" width="76" height="76" loading="lazy">
     <h2>This week's game<br>organises itself.</h2>
     <p>BIBS is coming soon to the App Store and Google Play.</p>
     <div class="badges">
@@ -180,7 +193,7 @@
 <footer class="site"><div class="wrap-wide">
   <div class="foot">
     <div>
-      <a class="logo" href="./"><img src="../assets/icon-256.png" alt="">BIBS</a>
+      <a class="logo" href="./"><img src="../assets/icon-64.webp" alt="" width="32" height="32">BIBS</a>
       <p>The app for football groups that play every week. This site uses no cookies and no trackers.</p>
     </div>
     <div>

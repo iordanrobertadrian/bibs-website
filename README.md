@@ -2,7 +2,7 @@
 
 Public website for the BIBS app: landing page plus the legal and support pages required by the
 App Store and Google Play. Plain HTML, one stylesheet and two small scripts. No build step, no
-cookies, no trackers, no external requests (no web fonts, no CDN).
+cookies, no trackers, no external requests (fonts are self-hosted, no CDN).
 
 Publisher and data controller: **Iordan Robert-Adrian PFA** (CIF 51961705, Nr. Reg. Com.
 F202501276007, Bucuresti, Sector 2, Str. Baia de Arama, Nr. 1, Bl. Corp B2, Etaj 5, Ap. 28).
@@ -23,6 +23,9 @@ assets/style.css               shared styles (light and dark via prefers-color-s
 assets/config.js               contact email addresses (single configuration point)
 assets/link-fallback.js        "Open in the BIBS app" on /invite/*, /reset-password, /verify-email
 assets/favicon.png             icon
+assets/fonts/                  Geist (text) and Bricolage Grotesque (headings), latin subset, SIL OFL 1.1
+assets/screens/                app screenshots (WebP, 660x1469), RO and *_en for the English page
+assets/og.jpg, og-en.jpg       1200x630 share images for the landing pages
 .well-known/apple-app-site-association   iOS universal links
 .well-known/assetlinks.json              Android App Links
 _headers                       Content-Type for .well-known + security headers (Cloudflare Pages / Netlify)
