@@ -1,0 +1,14 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["TEAMID.app.bibs.mobile"],
+        "components": [
+          { "/": "/invite/*", "comment": "Team invitations" },
+          { "/": "/reset-password*", "comment": "Password reset links" },
+          { "/": "/verify-email*", "comment": "Email confirmation links" }
+        ]
+      }
+    ]
+  }
+}

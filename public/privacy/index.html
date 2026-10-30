@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politica de confidentialitate - BIBS</title>
+<meta name="description" content="Cum prelucreaza BIBS datele personale: ce date, de ce, cat timp, cu cine si ce drepturi ai.">
+<link rel="icon" href="../assets/favicon.png">
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="alternate" hreflang="en" href="../en/privacy/">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="logo" href="../"><img src="../assets/favicon.png" alt="">BIBS</a>
+  <nav class="top" aria-label="Meniu">
+    <a href="../support/">Suport</a>
+    <a href="../privacy/" aria-current="page">Confidentialitate</a>
+    <a href="../terms/">Termeni</a>
+    <a class="lang" href="../en/privacy/" hreflang="en" lang="en">EN</a>
+  </nav>
+</div></header>
+
+<main><div class="wrap">
+<h1>Politica de confidentialitate</h1>
+<p class="meta">Ultima actualizare: 30 octombrie 2026 &middot; Versiunea 1.0</p>
+
+<div class="card note">
+  <p><strong>Pe scurt.</strong> BIBS te ajuta sa organizezi meciurile de fotbal ale grupului tau. Pentru asta folosim numele, adresa de email, poza de profil (daca pui una), echipele din care faci parte, prezenta la meciuri si notele de joc date de administratori. Nu vindem date, nu afisam reclame, nu folosim trackere si nu te urmarim in alte aplicatii sau site-uri. Iti poti sterge contul oricand, direct din aplicatie.</p>
+</div>
+
+<nav class="card toc" aria-label="Cuprins">
+<ol>
+  <li><a href="#operator">Cine suntem</a></li>
+  <li><a href="#date">Ce date prelucram</a></li>
+  <li><a href="#scopuri">Scopuri si temeiuri legale</a></li>
+  <li><a href="#vizibilitate">Cine vede datele in aplicatie</a></li>
+  <li><a href="#terti">Date despre alte persoane</a></li>
+  <li><a href="#destinatari">Destinatari si furnizori</a></li>
+  <li><a href="#transferuri">Transferuri in afara SEE</a></li>
+  <li><a href="#retentie">Cat timp pastram datele</a></li>
+  <li><a href="#stergere">Stergerea contului</a></li>
+  <li><a href="#drepturi">Drepturile tale</a></li>
+  <li><a href="#varsta">Varsta minima</a></li>
+  <li><a href="#push">Notificari push</a></li>
+  <li><a href="#cookies">Cookie-uri si trackere</a></li>
+  <li><a href="#securitate">Securitate</a></li>
+  <li><a href="#automat">Decizii automate</a></li>
+  <li><a href="#modificari">Modificari</a></li>
+  <li><a href="#contact">Contact si plangeri</a></li>
+</ol>
+</nav>
+
+<h2 id="operator">1. Cine suntem</h2>
+<p>Operatorul datelor tale personale, in sensul Regulamentului (UE) 2016/679 (&bdquo;GDPR&rdquo;), este:</p>
+<div class="card">
+  <p><strong>Iordan Robert-Adrian PFA</strong> (persoana fizica autorizata)<br>
+  CIF 51961705, Nr. Reg. Com. F202501276007<br>
+  Sediu: Bucuresti, Sector 2, Str. Baia de Arama, Nr. 1, Bl. Corp B2, Etaj 5, Ap. 28, Romania<br>
+  Email pentru protectia datelor: <a data-email="privacy" href="mailto:privacy@bibs.app">privacy@bibs.app</a></p>
+</div>
+<p>Aceasta politica se aplica aplicatiei mobile BIBS (iOS si Android), serverului (API-ului) care o deserveste si acestui site. Nu am desemnat un responsabil cu protectia datelor (DPO), deoarece activitatea noastra nu indeplineste conditiile art. 37 GDPR; pentru orice intrebare scrie-ne la adresa de mai sus.</p>
+
+<h2 id="date">2. Ce date prelucram</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Categorie</th><th>Ce anume</th><th>De unde provin</th></tr></thead>
+<tbody>
+<tr><td>Date de cont</td><td>Nume (max. 80 caractere), adresa de email, parola (stocata doar ca hash bcrypt, niciodata in clar), daca emailul a fost confirmat, limba preferata (ro/en), porecla optionala, data crearii si a ultimei conectari.</td><td>De la tine, la inregistrare si in profil.</td></tr>
+<tr><td>Conectare cu Google / Apple</td><td>Identificatorul stabil al contului Google sau Apple (&bdquo;subject&rdquo;), numele si emailul transmise de furnizor. Cu Apple poti alege sa ascunzi emailul real (adresa de tip relay Apple).</td><td>De la Google sau Apple, cand alegi aceasta metoda.</td></tr>
+<tr><td>Poza de profil si sigla echipei</td><td>Imaginea incarcata (max. 4 MB). Inainte de stocare eliminam metadatele imaginii (EXIF cu locatia GPS, seria aparatului, XMP, comentarii).</td><td>De la tine (galerie sau camera), doar daca alegi sa incarci.</td></tr>
+<tr><td>Date de echipa</td><td>Echipele din care faci parte, rolul (Jucator, Admin, Admin+), statusul, pozitia preferata, porecla in echipa, prioritatea la inscriere, data intrarii, preferintele de notificare pe echipa.</td><td>De la tine si de la administratorii echipei.</td></tr>
+<tr><td>Note de joc (rating)</td><td>O nota intre 0 si 5 per echipa, folosita la impartirea echilibrata a echipelor; cererile de reevaluare si voturile administratorilor.</td><td>De la administratorii echipei; cererile, de la tine.</td></tr>
+<tr><td>Activitate in aplicatie</td><td>Inscrieri si retrageri de pe lista unei sesiuni, echipele generate, aruncarea monedei, scorul si cronometrul, istoricul meciurilor si statisticile de prezenta, anunturile echipei, ideile si cererile trimise catre administratori.</td><td>Din folosirea aplicatiei de catre tine si de catre ceilalti membri.</td></tr>
+<tr><td>Invitatii</td><td>Adresa de email a persoanei invitate, cine a invitat, rolul propus, un mesaj optional, statusul invitatiei.</td><td>De la membrul care trimite invitatia.</td></tr>
+<tr><td>Sesiuni si dispozitive</td><td>Pentru fiecare dispozitiv conectat: numele dispozitivului, user-agent, adresa IP la conectare, data ultimei utilizari; pentru notificari: tokenul push Expo, platforma (iOS/Android), versiunea aplicatiei, limba dispozitivului.</td><td>Generate automat de aplicatie si server.</td></tr>
+<tr><td>Abonament</td><td>Pentru fiecare echipa: starea abonamentului (proba, activ, anulat, expirat), produsul cumparat, perioada curenta, magazinul (App Store / Google Play), identificatorii tranzactiei la RevenueCat si utilizatorul care plateste. <strong>Nu primim si nu stocam niciodata datele cardului tau</strong>; plata este procesata integral de Apple sau Google.</td><td>De la Apple / Google prin RevenueCat.</td></tr>
+<tr><td>Jurnal de audit</td><td>Actiunile administrative importante (schimbari de rol, note, eliminari, generari de echipe, abonament, stergere de cont): cine, cand, ce s-a schimbat.</td><td>Generat automat de server.</td></tr>
+<tr><td>Jurnale tehnice (log-uri)</td><td>Pentru fiecare cerere catre server: metoda, adresa, codul raspunsului, durata, adresa IP si user-agent. Parolele, tokenurile si antetele de autentificare sunt mascate automat si nu ajung in jurnale.</td><td>Generate automat de server.</td></tr>
+<tr><td>Corespondenta</td><td>Mesajele trimise de tine catre suport si raspunsurile noastre.</td><td>De la tine.</td></tr>
+</tbody></table></div>
+<p><strong>Ce nu colectam:</strong> locatia dispozitivului, contactele din telefon, date de sanatate, identificatori de publicitate (IDFA/AAID), istoricul de navigare, date de plata. Nu folosim SDK-uri de analiza, publicitate sau raportare de erori in aplicatie. Nu iti cerem date sensibile (art. 9 GDPR) si te rugam sa nu le introduci in campurile libere (de ex. motivul unei absente).</p>
+<p>Datele cerute la inregistrare (nume, email, parola sau cont Google/Apple) sunt necesare pentru a-ti crea contul; fara ele nu putem furniza serviciul. Poza de profil, porecla si celelalte campuri optionale sunt la alegerea ta.</p>
+
+<h2 id="scopuri">3. Scopuri si temeiuri legale (art. 6 GDPR)</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Scop</th><th>Date folosite</th><th>Temei legal</th></tr></thead>
+<tbody>
+<tr><td>Crearea si administrarea contului, autentificarea (inclusiv cu Google/Apple), confirmarea emailului, resetarea parolei</td><td>Date de cont, sesiuni</td><td>Executarea contractului - art. 6 alin. (1) lit. b)</td></tr>
+<tr><td>Functionarea grupului: echipe, invitatii, liste de inscriere, impartirea echipelor, meciuri, istoric, anunturi, cereri si idei</td><td>Date de echipa, activitate, invitatii, poza</td><td>Executarea contractului - lit. b)</td></tr>
+<tr><td>Notele de joc si impartirea echilibrata a echipelor</td><td>Note, prezenta</td><td>Executarea contractului (functie de baza a serviciului la care ai aderat) - lit. b); interesul legitim al grupului de a avea meciuri echilibrate - lit. f)</td></tr>
+<tr><td>Trimiterea invitatiei pe email unei persoane care nu are inca cont</td><td>Emailul invitatului</td><td>Interesul legitim al membrului care invita si al nostru de a permite aderarea la grup - lit. f)</td></tr>
+<tr><td>Notificari push si emailuri de serviciu (inscrieri deschise, echipe generate, ziua meciului, anunturi, invitatii)</td><td>Token push, email, limba</td><td>Executarea contractului - lit. b). Notificarile push sunt trimise doar daca le-ai permis in sistemul de operare.</td></tr>
+<tr><td>Abonamentele echipei, perioada de proba, restabilirea achizitiilor</td><td>Date de abonament</td><td>Executarea contractului - lit. b); obligatii legale contabile si fiscale, unde este cazul - lit. c)</td></tr>
+<tr><td>Securitate: prevenirea accesului neautorizat, limitarea cererilor, detectarea reutilizarii tokenurilor, lista &bdquo;dispozitive conectate&rdquo;</td><td>Sesiuni, IP, user-agent, jurnale tehnice</td><td>Interesul legitim de a proteja conturile si serviciul - lit. f)</td></tr>
+<tr><td>Jurnal de audit (cine a schimbat o nota, un rol etc.), solutionarea disputelor din grup si a solicitarilor de suport</td><td>Jurnal de audit</td><td>Interesul legitim al grupului si al nostru de transparenta si responsabilitate - lit. f)</td></tr>
+<tr><td>Raspunsul la mesajele tale si exercitarea drepturilor GDPR</td><td>Corespondenta</td><td>Executarea contractului - lit. b); obligatie legala - lit. c)</td></tr>
+<tr><td>Apararea unor drepturi in justitie</td><td>Datele relevante pentru cazul respectiv</td><td>Interesul legitim - lit. f)</td></tr>
+</tbody></table></div>
+<p>Atunci cand ne bazam pe interesul legitim, am evaluat ca acesta nu prevaleaza asupra drepturilor tale; te poti opune oricand (vezi sectiunea 10). Nu folosim datele pentru marketing; daca vom trimite vreodata comunicari comerciale, iti vom cere in prealabil consimtamantul.</p>
+
+<h2 id="vizibilitate">4. Cine vede datele in aplicatie</h2>
+<ul>
+  <li><strong>Membrii echipelor tale</strong> vad numele, porecla, poza, pozitia, inscrierile, echipa in care ai fost repartizat si istoricul meciurilor din acea echipa.</li>
+  <li><strong>Administratorii echipei</strong> (Admin, Admin+) vad in plus notele de joc, cererile si ideile trimise, invitatiile si jurnalul de audit al echipei.</li>
+  <li><strong>Notele de joc</strong> sunt vizibile jucatorilor obisnuiti doar daca administratorii echipei activeaza aceasta optiune (implicit este dezactivata).</li>
+  <li><strong>Pozele de profil si siglele</strong> sunt servite printr-o adresa web greu de ghicit; oricine are adresa exacta o poate deschide.</li>
+  <li><strong>Operatorul</strong> (Iordan Robert-Adrian PFA) si persoanele autorizate de acesta pot accesa datele strict pentru suport, securitate si respectarea legii.</li>
+</ul>
+
+<h2 id="terti">5. Date despre alte persoane</h2>
+<p>Administratorii pot adauga pe liste <strong>jucatori externi</strong> (persoane fara cont BIBS) cu un nume, o nota si o pozitie, si pot invita persoane pe email. Cand faci asta, te rugam sa adaugi doar date de care ai nevoie (de exemplu un prenume) si sa informezi persoana respectiva. Persoana invitata primeste un singur email de invitatie si poate cere stergerea datelor scriindu-ne la <a data-email="privacy" href="mailto:privacy@bibs.app">privacy@bibs.app</a>.</p>
+
+<h2 id="destinatari">6. Destinatari si furnizori (persoane imputernicite)</h2>
+<p>Nu vindem si nu inchiriem date personale. Le dezvaluim doar furnizorilor care ne ajuta sa operam serviciul, pe baza unor contracte de prelucrare (art. 28 GDPR), si doar in masura necesara:</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Furnizor</th><th>Rol</th><th>Date</th><th>Locatie</th></tr></thead>
+<tbody>
+<tr><td>MongoDB, Inc. (MongoDB Atlas)</td><td>Baza de date gazduita</td><td>Toate datele din aplicatie</td><td>Uniunea Europeana (regiunea Frankfurt, Germania)</td></tr>
+<tr><td>Furnizorul de gazduire a serverului (API)</td><td>Ruleaza serverul BIBS</td><td>Datele care trec prin server, jurnale tehnice</td><td>Uniunea Europeana</td></tr>
+<tr><td>Furnizorul de stocare de fisiere (compatibil S3)</td><td>Stocheaza pozele de profil si siglele</td><td>Imagini</td><td>Uniunea Europeana</td></tr>
+<tr><td>Furnizorul de email tranzactional (SMTP)</td><td>Trimite emailurile de confirmare, resetare parola si invitatie</td><td>Adresa de email, nume, continutul mesajului</td><td>UE / SUA (vezi sectiunea 7)</td></tr>
+<tr><td>Expo (650 Industries, Inc.)</td><td>Serviciul de notificari push, care transmite mai departe catre Apple (APNs) si Google (FCM)</td><td>Token push, textul notificarii</td><td>SUA</td></tr>
+<tr><td>RevenueCat, Inc.</td><td>Gestioneaza abonamentele cumparate prin App Store / Google Play</td><td>Identificatorul echipei, date despre achizitie si reinnoire</td><td>SUA</td></tr>
+</tbody></table></div>
+<p><strong>Operatori independenti.</strong> Apple si Google prelucreaza date in nume propriu atunci cand descarci aplicatia, platesti un abonament, folosesti &bdquo;Conectare cu Apple / Google&rdquo; sau primesti notificari pe dispozitiv; pentru aceste prelucrari se aplica politicile lor de confidentialitate.</p>
+<p><strong>Autoritati.</strong> Putem dezvalui date autoritatilor publice doar cand legea ne obliga.</p>
+<p><strong>Transferul serviciului.</strong> Daca serviciul BIBS este cedat sau vandut altei persoane, datele pot fi transferate noului operator, care va fi tinut de aceasta politica; te vom anunta in prealabil.</p>
+
+<h2 id="transferuri">7. Transferuri in afara Spatiului Economic European</h2>
+<p>Baza de date este gazduita in UE. Unii furnizori (Expo, RevenueCat si, dupa caz, furnizorul de email) sunt stabiliti in SUA, astfel ca anumite date pot fi transferate acolo. Facem astfel de transferuri doar cu garantiile prevazute de capitolul V GDPR: decizia de adecvare privind Cadrul UE-SUA pentru protectia datelor (Data Privacy Framework), pentru furnizorii certificati, sau clauzele contractuale standard adoptate de Comisia Europeana (art. 46 GDPR), insotite de masuri suplimentare (criptare in tranzit, minimizarea datelor). Poti cere o copie a garantiilor relevante scriindu-ne.</p>
+
+<h2 id="retentie">8. Cat timp pastram datele</h2>
+<div class="table-wrap"><table>
+<thead><tr><th>Date</th><th>Durata</th></tr></thead>
+<tbody>
+<tr><td>Contul si profilul</td><td>Cat timp contul este activ. La stergerea contului, datele de identificare sunt eliminate imediat (vezi sectiunea 9).</td></tr>
+<tr><td>Linkuri de resetare a parolei</td><td>Valabile 30 de minute; sterse automat la cel mult o ora dupa expirare.</td></tr>
+<tr><td>Linkuri de confirmare a emailului</td><td>Valabile 48 de ore; sterse automat la cel mult o ora dupa expirare.</td></tr>
+<tr><td>Invitatii pe email</td><td>Valabile 14 zile. Invitatiile care te privesc sunt sterse cand iti stergi contul.</td></tr>
+<tr><td>Sesiuni de conectare (inclusiv IP si user-agent)</td><td>Pana la 60 de zile de la ultima reinnoire, apoi sterse automat.</td></tr>
+<tr><td>Tokenuri push</td><td>Pana la deconectarea de pe dispozitiv, stergerea contului sau pana cand Apple/Google raporteaza tokenul ca invalid.</td></tr>
+<tr><td>Jurnal de audit</td><td>2 ani, apoi sters automat. La stergerea contului, numele tau este eliminat din intrari.</td></tr>
+<tr><td>Jurnale tehnice ale serverului</td><td>Cel mult 30 de zile.</td></tr>
+<tr><td>Istoricul meciurilor echipei</td><td>Cat timp exista echipa. Dupa stergerea contului, istoricul nu te mai leaga de contul tau (vezi sectiunea 9).</td></tr>
+<tr><td>Date de abonament</td><td>Cat timp exista echipa; documentele contabile, cat impune legea (de regula 5 sau 10 ani, conform Legii contabilitatii nr. 82/1991).</td></tr>
+<tr><td>Corespondenta cu suportul</td><td>Pana la 2 ani de la ultimul mesaj, cu exceptia cazului in care este necesara pentru apararea unui drept.</td></tr>
+<tr><td>Copii de siguranta (backup)</td><td>Se suprascriu ciclic; datele sterse dispar din copii in cel mult 30 de zile.</td></tr>
+</tbody></table></div>
+
+<h2 id="stergere">9. Stergerea contului</h2>
+<p>Iti poti sterge contul direct din aplicatie: <strong>Mai mult &rarr; Profilul tau &rarr; Cont &rarr; Stergerea contului</strong>. Poti cere stergerea si pe email. Detalii complete, inclusiv ce se pastreaza si de ce, gasesti pe pagina <a href="../delete-account/">Stergerea contului</a>.</p>
+<p>Pe scurt, la stergere: numele devine &bdquo;Former player&rdquo;, emailul este inlocuit cu o adresa inutilizabila, parola si legaturile cu Google/Apple sunt eliminate, poza si poreclele sunt sterse, iesi din toate echipele, invitatiile si dispozitivele tale sunt sterse si esti deconectat peste tot. Ramane un identificator intern fara date de identificare, pentru ca istoricul celorlalti jucatori sa ramana corect. In listele meciurilor deja jucate poate ramane numele afisat la momentul respectiv.</p>
+<p><strong>Abonamente:</strong> stergerea contului nu anuleaza un abonament cumparat prin App Store sau Google Play. Anuleaza-l din setarile magazinului.</p>
+
+<h2 id="drepturi">10. Drepturile tale</h2>
+<p>Conform art. 15-22 GDPR ai dreptul:</p>
+<ul>
+  <li>de <strong>acces</strong> la datele tale si de a primi o copie;</li>
+  <li>la <strong>rectificare</strong> - multe date le poti corecta direct in aplicatie (nume, porecla, poza, email);</li>
+  <li>la <strong>stergere</strong> (&bdquo;dreptul de a fi uitat&rdquo;);</li>
+  <li>la <strong>restrictionarea</strong> prelucrarii;</li>
+  <li>la <strong>portabilitate</strong> - sa primesti datele furnizate de tine intr-un format structurat, utilizat in mod curent (de ex. JSON);</li>
+  <li>de <strong>opozitie</strong> la prelucrarile bazate pe interesul legitim;</li>
+  <li>de a-ti <strong>retrage consimtamantul</strong>, acolo unde prelucrarea se bazeaza pe consimtamant (de ex. permisiunea pentru notificari, din setarile telefonului), fara a afecta prelucrarea anterioara;</li>
+  <li>de a nu face obiectul unei decizii bazate exclusiv pe prelucrare automata (vezi sectiunea 15).</li>
+</ul>
+<p>Scrie-ne la <a data-email="privacy" href="mailto:privacy@bibs.app">privacy@bibs.app</a>, de pe adresa asociata contului. Raspundem gratuit, in cel mult o luna (termen prelungibil cu inca doua luni pentru cereri complexe, cu informarea ta). Putem cere informatii suplimentare pentru a-ti confirma identitatea.</p>
+<p>Ai si dreptul de a depune o plangere la <strong>Autoritatea Nationala de Supraveghere a Prelucrarii Datelor cu Caracter Personal (ANSPDCP)</strong>, B-dul G-ral. Gheorghe Magheru nr. 28-30, Sector 1, Bucuresti, <a href="https://www.dataprotection.ro" rel="noopener">www.dataprotection.ro</a>, sau la autoritatea din tara in care locuiesti ori muncesti.</p>
+
+<h2 id="varsta">11. Varsta minima</h2>
+<p>BIBS este destinat persoanelor care au <strong>cel putin 16 ani</strong>. Nu cream cu buna stiinta conturi pentru persoane sub 16 ani si nu cerem consimtamantul parintilor. Daca afli ca un copil sub 16 ani si-a creat cont, scrie-ne si vom sterge contul. Administratorii nu trebuie sa adauge copii sub 16 ani ca jucatori externi.</p>
+
+<h2 id="push">12. Notificari push</h2>
+<p>Aplicatia iti cere permisiunea pentru notificari; o poti refuza sau retrage oricand din setarile telefonului. Poti alege si ce notificari primesti pentru fiecare echipa (inscrieri deschise, echipe generate, ziua meciului, anunturi). Notificarile sunt trimise prin Expo catre Apple Push Notification service (iOS) sau Firebase Cloud Messaging (Android) si contin texte scurte despre activitatea echipei, de exemplu numele echipei si ora meciului. Nu trimitem notificari publicitare.</p>
+
+<h2 id="cookies">13. Cookie-uri si trackere</h2>
+<p><strong>Acest site nu foloseste cookie-uri, trackere, pixeli sau instrumente de analiza.</strong> Furnizorul de gazduire al site-ului poate inregistra tehnic adresa IP si browserul in jurnalele proprii, pentru securitate.</p>
+<p><strong>Aplicatia</strong> nu foloseste cookie-uri, identificatori de publicitate sau SDK-uri de urmarire si nu te urmareste in alte aplicatii sau site-uri. Pe telefon stocam local doar ce este strict necesar: tokenurile de autentificare (in spatiul securizat al sistemului - Keychain / Keystore) si preferinte precum tema, limba si echipa selectata.</p>
+
+<h2 id="securitate">14. Securitate</h2>
+<ul>
+  <li>Toate comunicarile dintre aplicatie si server sunt criptate (HTTPS/TLS).</li>
+  <li>Parolele sunt stocate doar ca hash bcrypt; tokenurile din emailuri si tokenurile de reinnoire sunt stocate doar ca hash.</li>
+  <li>Tokenurile de acces sunt de scurta durata; reutilizarea unui token de reinnoire vechi deconecteaza automat sesiunea.</li>
+  <li>Accesul la date este limitat pe echipe si pe roluri; limitam numarul de cereri pentru a preveni atacurile.</li>
+  <li>Metadatele imaginilor (inclusiv locatia GPS) sunt eliminate la incarcare.</li>
+  <li>Poti vedea si deconecta dispozitivele conectate din Profil.</li>
+</ul>
+<p>Niciun sistem nu este perfect sigur. In cazul unei incalcari a securitatii datelor care prezinta riscuri, vom notifica ANSPDCP si, daca riscul este ridicat, pe tine, conform art. 33-34 GDPR.</p>
+
+<h2 id="automat">15. Decizii automate</h2>
+<p>Aplicatia imparte automat jucatorii in echipe folosind notele de joc si poate arunca automat moneda. Aceste operatiuni organizeaza un meci amical, pot fi ajustate de administratori si nu produc efecte juridice sau efecte similare semnificative asupra ta; nu facem profilare in sensul art. 22 GDPR.</p>
+
+<h2 id="modificari">16. Modificari</h2>
+<p>Putem actualiza aceasta politica. Data ultimei actualizari apare la inceputul paginii. Despre schimbarile importante te vom anunta in aplicatie sau pe email inainte de intrarea lor in vigoare.</p>
+
+<h2 id="contact">17. Contact si plangeri</h2>
+<p>Pentru orice intrebare despre datele tale: <a data-email="privacy" href="mailto:privacy@bibs.app">privacy@bibs.app</a>. Pentru suport general: <a data-email="support" href="mailto:support@bibs.app">support@bibs.app</a>. Adresa postala: Iordan Robert-Adrian PFA, Bucuresti, Sector 2, Str. Baia de Arama, Nr. 1, Bl. Corp B2, Etaj 5, Ap. 28, Romania.</p>
+</div></main>
+
+<footer class="site"><div class="wrap">
+  <nav aria-label="Legal">
+    <a href="../privacy/">Confidentialitate</a>
+    <a href="../terms/">Termeni si conditii</a>
+    <a href="../delete-account/">Stergerea contului</a>
+    <a href="../support/">Suport</a>
+    <a href="../child-safety/">Siguranta copiilor</a>
+  </nav>
+  <p>&copy; <span data-year>2026</span> Iordan Robert-Adrian PFA &middot; CIF 51961705 &middot; Nr. Reg. Com. F202501276007<br>Site fara cookie-uri si fara trackere.</p>
+</div></footer>
+<script src="../assets/config.js"></script>
+</body>
+</html>
