@@ -26,3 +26,16 @@
 
 /assets/screens/*
   Cache-Control: public, max-age=604800
+
+# Email links carry a one-time token: never indexed, never sent on as a referrer.
+/invite/*
+  X-Robots-Tag: noindex
+  Referrer-Policy: no-referrer
+
+/reset-password*
+  X-Robots-Tag: noindex
+  Referrer-Policy: no-referrer
+
+/verify-email*
+  X-Robots-Tag: noindex
+  Referrer-Policy: no-referrer

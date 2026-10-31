@@ -1,0 +1,2 @@
+# Invitation links carry a token in the path; one page serves them all.
+/invite/*  /invite/  200
