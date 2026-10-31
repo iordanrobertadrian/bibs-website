@@ -132,7 +132,7 @@ The app handles `https://getbibs.app` and `https://www.getbibs.app` for `/invite
 and `/verify-email`. The API builds these links from `PUBLIC_WEB_URL`, which must be the site's
 domain.
 
-- `.well-known/apple-app-site-association`: replace `TEAMID` with the 10-character Apple Team ID
+- `.well-known/apple-app-site-association`: Apple Team ID `8QPKB43G25` is filled in (bundle `app.bibs.mobile`)
   (developer.apple.com -> Membership), e.g. `ABCDE12345.app.bibs.mobile`.
 - `.well-known/assetlinks.json`: replace the placeholder with the SHA-256 fingerprint of the app
   signing key (Play Console -> Test and release -> App integrity -> App signing key certificate).

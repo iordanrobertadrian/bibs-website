@@ -2,7 +2,7 @@
   "applinks": {
     "details": [
       {
-        "appIDs": ["TEAMID.app.bibs.mobile"],
+        "appIDs": ["8QPKB43G25.app.bibs.mobile"],
         "components": [
           { "/": "/invite/*", "comment": "Team invitations" },
           { "/": "/join*", "comment": "Join a team with its code" },
