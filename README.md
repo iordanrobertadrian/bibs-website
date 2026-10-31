@@ -1,7 +1,7 @@
 # bibs-site
 
 Public website for the BIBS app: landing page plus the legal and support pages required by the
-App Store and Google Play. Plain HTML, one stylesheet and two small scripts. No build step, no
+App Store and Google Play. Plain HTML, one stylesheet and three small scripts. No build step, no
 cookies, no trackers, no external requests (fonts are self-hosted, no CDN).
 
 Publisher and data controller: **Iordan Robert-Adrian PFA** (CIF 51961705, Nr. Reg. Com.
@@ -18,10 +18,12 @@ terms/index.html               Termeni si conditii              en/terms/
 delete-account/index.html      Stergerea contului               en/delete-account/
 support/index.html             Suport + intrebari frecvente     en/support/
 child-safety/index.html        Standarde siguranta copiilor     en/child-safety/
+join/index.html                Cod de intrare (noindex)         en/join/
 404.html                       not found + fallback for app links opened without the app
 assets/style.css               shared styles (light and dark via prefers-color-scheme)
 assets/config.js               contact email addresses (single configuration point)
 assets/link-fallback.js        "Open in the BIBS app" on /invite/*, /reset-password, /verify-email
+assets/join.js                 shows the ?c= join code on /join and links "Open in BIBS" to bibs://join?c=...
 assets/favicon.png             icon
 assets/fonts/                  Geist (text) and Bricolage Grotesque (headings), latin subset, SIL OFL 1.1
 assets/screens/                app screenshots (WebP, 660x1469), RO and *_en for the English page
@@ -125,7 +127,7 @@ command and publish directory `public`. `_headers` uses the same syntax.
 
 ## Universal links / App Links
 
-The app handles `https://bibs.app` and `https://www.bibs.app` for `/invite/*`, `/reset-password`
+The app handles `https://bibs.app` and `https://www.bibs.app` for `/invite/*`, `/join`, `/reset-password`
 and `/verify-email`. The API builds these links from `PUBLIC_WEB_URL`, which must be the site's
 domain.
 
@@ -138,7 +140,9 @@ domain.
   the app declares (Apple does not follow redirects). Serve the same deployment on `www` rather
   than redirecting it, or remove `www` from the app configuration. Verify with Google's
   [Statement List tester](https://developers.google.com/digital-asset-links/tools/generator).
-- Without the app (or on desktop) these links land on `404.html`, which shows an
+- `/join?c=CODE` (the link admins share with a team's join code) has its own page, `join/`
+  (and `en/join/`), which shows the code and an "Open in BIBS" button (`bibs://join?c=...`).
+- Without the app (or on desktop) the other links land on `404.html`, which shows an
   "Open in the BIBS app" button (`bibs://...`) and a link to the landing page. Test once on a
   real device.
 
