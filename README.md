@@ -4,8 +4,9 @@ Public website for the BIBS app: landing page plus the legal and support pages r
 App Store and Google Play. Plain HTML, one stylesheet and three small scripts. No build step, no
 cookies, no trackers, no external requests (fonts are self-hosted, no CDN).
 
-Publisher and data controller: **Iordan Robert-Adrian PFA** (CIF 51961705, Nr. Reg. Com.
-F202501276007, Bucuresti, Sector 2, Str. Baia de Arama, Nr. 1, Bl. Corp B2, Etaj 5, Ap. 28).
+Publisher and data controller: **IORDAN ROBERT-ADRIAN PERSOANA FIZICA AUTORIZATA** (CIF 51961705,
+Nr. Reg. Com. F202501276007, Strada Baia de Arama, Nr. 1, Bl. B2, Corp B2, Etaj 5, Ap. 28,
+Sector 2, Bucuresti, Romania).
 
 Romanian is the default language (written without diacritics, like the app); English lives
 under `/en/`. Both language versions have the same sections and the same facts; the Romanian
@@ -172,7 +173,7 @@ domain.
 | Child safety standards (only for Social or Dating category) | `https://getbibs.app/child-safety` |
 
 The developer name shown in both stores should match the publisher named on the site
-(Iordan Robert-Adrian PFA).
+(IORDAN ROBERT-ADRIAN PERSOANA FIZICA AUTORIZATA).
 
 ### App and API configuration
 
@@ -281,7 +282,8 @@ browsing, app info and performance, advertising ID. Data is stored (not processe
     date for existing teams. Keep in sync with the API configuration.
 13. **Accounting retention** "5 or 10 years" (Law 82/1991): revenue comes from Apple / Google
     payouts, not directly from users; can be refined with the accountant.
-14. **Publisher form**: the publisher is a PFA (not VAT registered, so the CIF has no RO prefix).
+14. **Publisher form**: the publisher is IORDAN ROBERT-ADRIAN PERSOANA FIZICA AUTORIZATA, a sole
+    trader (persoana fizica autorizata) not registered for VAT, so the CIF has no RO prefix.
     Confirm the identification details required on the site and in the stores (Law 365/2002 on
     e-commerce, art. 5) and that the IP clause (Terms section 13) reflects ownership correctly.
 15. **Reference language**: the English pages state that the Romanian version prevails.
