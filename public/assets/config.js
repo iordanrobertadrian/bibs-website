@@ -5,8 +5,8 @@
  * (see README.md, "Contact addresses").
  */
 window.BIBS_CONFIG = {
-  supportEmail: 'support@bibs.app',
-  privacyEmail: 'privacy@bibs.app',
+  supportEmail: 'support@getbibs.app',
+  privacyEmail: 'privacy@getbibs.app',
 };
 
 (function () {

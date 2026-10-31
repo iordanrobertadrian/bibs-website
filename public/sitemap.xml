@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://bibs.app/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://bibs.app/"/><xhtml:link rel="alternate" hreflang="en" href="https://bibs.app/en/"/></url>
-  <url><loc>https://bibs.app/en/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://bibs.app/"/><xhtml:link rel="alternate" hreflang="en" href="https://bibs.app/en/"/></url>
-  <url><loc>https://bibs.app/support/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://bibs.app/support/"/><xhtml:link rel="alternate" hreflang="en" href="https://bibs.app/en/support/"/></url>
-  <url><loc>https://bibs.app/en/support/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://bibs.app/support/"/><xhtml:link rel="alternate" hreflang="en" href="https://bibs.app/en/support/"/></url>
-  <url><loc>https://bibs.app/privacy/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://bibs.app/privacy/"/><xhtml:link rel="alternate" hreflang="en" href="https://bibs.app/en/privacy/"/></url>
-  <url><loc>https://bibs.app/en/privacy/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://bibs.app/privacy/"/><xhtml:link rel="alternate" hreflang="en" href="https://bibs.app/en/privacy/"/></url>
-  <url><loc>https://bibs.app/terms/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://bibs.app/terms/"/><xhtml:link rel="alternate" hreflang="en" href="https://bibs.app/en/terms/"/></url>
-  <url><loc>https://bibs.app/en/terms/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://bibs.app/terms/"/><xhtml:link rel="alternate" hreflang="en" href="https://bibs.app/en/terms/"/></url>
-  <url><loc>https://bibs.app/delete-account/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://bibs.app/delete-account/"/><xhtml:link rel="alternate" hreflang="en" href="https://bibs.app/en/delete-account/"/></url>
-  <url><loc>https://bibs.app/en/delete-account/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://bibs.app/delete-account/"/><xhtml:link rel="alternate" hreflang="en" href="https://bibs.app/en/delete-account/"/></url>
-  <url><loc>https://bibs.app/child-safety/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://bibs.app/child-safety/"/><xhtml:link rel="alternate" hreflang="en" href="https://bibs.app/en/child-safety/"/></url>
-  <url><loc>https://bibs.app/en/child-safety/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://bibs.app/child-safety/"/><xhtml:link rel="alternate" hreflang="en" href="https://bibs.app/en/child-safety/"/></url>
+  <url><loc>https://getbibs.app/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://getbibs.app/"/><xhtml:link rel="alternate" hreflang="en" href="https://getbibs.app/en/"/></url>
+  <url><loc>https://getbibs.app/en/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://getbibs.app/"/><xhtml:link rel="alternate" hreflang="en" href="https://getbibs.app/en/"/></url>
+  <url><loc>https://getbibs.app/support/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://getbibs.app/support/"/><xhtml:link rel="alternate" hreflang="en" href="https://getbibs.app/en/support/"/></url>
+  <url><loc>https://getbibs.app/en/support/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://getbibs.app/support/"/><xhtml:link rel="alternate" hreflang="en" href="https://getbibs.app/en/support/"/></url>
+  <url><loc>https://getbibs.app/privacy/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://getbibs.app/privacy/"/><xhtml:link rel="alternate" hreflang="en" href="https://getbibs.app/en/privacy/"/></url>
+  <url><loc>https://getbibs.app/en/privacy/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://getbibs.app/privacy/"/><xhtml:link rel="alternate" hreflang="en" href="https://getbibs.app/en/privacy/"/></url>
+  <url><loc>https://getbibs.app/terms/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://getbibs.app/terms/"/><xhtml:link rel="alternate" hreflang="en" href="https://getbibs.app/en/terms/"/></url>
+  <url><loc>https://getbibs.app/en/terms/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://getbibs.app/terms/"/><xhtml:link rel="alternate" hreflang="en" href="https://getbibs.app/en/terms/"/></url>
+  <url><loc>https://getbibs.app/delete-account/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://getbibs.app/delete-account/"/><xhtml:link rel="alternate" hreflang="en" href="https://getbibs.app/en/delete-account/"/></url>
+  <url><loc>https://getbibs.app/en/delete-account/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://getbibs.app/delete-account/"/><xhtml:link rel="alternate" hreflang="en" href="https://getbibs.app/en/delete-account/"/></url>
+  <url><loc>https://getbibs.app/child-safety/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://getbibs.app/child-safety/"/><xhtml:link rel="alternate" hreflang="en" href="https://getbibs.app/en/child-safety/"/></url>
+  <url><loc>https://getbibs.app/en/child-safety/</loc><xhtml:link rel="alternate" hreflang="ro" href="https://getbibs.app/child-safety/"/><xhtml:link rel="alternate" hreflang="en" href="https://getbibs.app/en/child-safety/"/></url>
 </urlset>

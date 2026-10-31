@@ -48,10 +48,10 @@ Local preview: `npx serve public`. Opening files with `file://` works for readin
 
 ## Before publishing
 
-1. **Domain.** Everything assumes `https://bibs.app`. If the domain differs, update the app
+1. **Domain.** Everything assumes `https://getbibs.app`. If the domain differs, update the app
    (`EXPO_PUBLIC_*` URLs, `app.json` associated domains and intent filters), the API
    (`PUBLIC_WEB_URL`) and the URLs in this README. The pages themselves use relative links.
-2. **Contact addresses.** `support@bibs.app` and `privacy@bibs.app` must exist and receive mail
+2. **Contact addresses.** `support@getbibs.app` and `privacy@getbibs.app` must exist and receive mail
    before submission; store reviewers do write to them. See "Contact addresses".
 3. **Store badges.** `index.html` and `en/index.html` show "coming soon" badges. Once the listings
    are live, replace them with the official Apple / Google badge artwork linked to the listings.
@@ -73,8 +73,8 @@ Local preview: `npx serve public`. Opening files with `file://` works for readin
 
 ```js
 window.BIBS_CONFIG = {
-  supportEmail: 'support@bibs.app',
-  privacyEmail: 'privacy@bibs.app',
+  supportEmail: 'support@getbibs.app',
+  privacyEmail: 'privacy@getbibs.app',
 };
 ```
 
@@ -83,8 +83,8 @@ The HTML also contains the addresses as a fallback for visitors without JavaScri
 changing `config.js`, replace them in the pages too:
 
 ```bash
-grep -rl 'support@bibs\.app\|privacy@bibs\.app' --include=*.html --include=*.js public \
-  | xargs sed -i 's/support@bibs\.app/NEW_SUPPORT_ADDRESS/g; s/privacy@bibs\.app/NEW_PRIVACY_ADDRESS/g'
+grep -rl 'support@getbibs\.app\|privacy@getbibs\.app' --include=*.html --include=*.js public \
+  | xargs sed -i 's/support@getbibs\.app/NEW_SUPPORT_ADDRESS/g; s/privacy@getbibs\.app/NEW_PRIVACY_ADDRESS/g'
 ```
 
 Use the same support address in the app (`EXPO_PUBLIC_SUPPORT_EMAIL`), App Store Connect and
@@ -100,8 +100,8 @@ Play Console.
 2. Cloudflare dashboard -> Workers & Pages -> Create -> Pages -> Connect to Git -> select the repo.
 3. Build settings: framework preset **None**, build command **empty**, build output directory
    `public`.
-4. Deploy, then Custom domains -> add `bibs.app` (and `www.bibs.app` if used).
-5. Check: `curl -I https://bibs.app/.well-known/apple-app-site-association` returns HTTP 200,
+4. Deploy, then Custom domains -> add `getbibs.app` (and `www.getbibs.app` if used).
+5. Check: `curl -I https://getbibs.app/.well-known/apple-app-site-association` returns HTTP 200,
    `content-type: application/json` and no redirect.
 
 Without Git: `npx wrangler pages deploy public --project-name bibs-site` from this folder.
@@ -116,7 +116,7 @@ command and publish directory `public`. `_headers` uses the same syntax.
 1. Push the contents of `public/` to the root of a repository, branch `main` (GitHub Pages
    publishes only `/` or `/docs`).
 2. Settings -> Pages -> Deploy from a branch -> `main`, `/ (root)`.
-3. Custom domain `bibs.app`; at the DNS provider add the GitHub Pages `A`/`AAAA` records for the
+3. Custom domain `getbibs.app`; at the DNS provider add the GitHub Pages `A`/`AAAA` records for the
    apex and `CNAME www -> <user>.github.io`; enable **Enforce HTTPS**.
 4. Limitations: GitHub Pages ignores `_headers` (no security headers, and
    `apple-app-site-association` is served as `application/octet-stream`). If universal-link
@@ -127,7 +127,7 @@ command and publish directory `public`. `_headers` uses the same syntax.
 
 ## Universal links / App Links
 
-The app handles `https://bibs.app` and `https://www.bibs.app` for `/invite/*`, `/join`, `/reset-password`
+The app handles `https://getbibs.app` and `https://www.getbibs.app` for `/invite/*`, `/join`, `/reset-password`
 and `/verify-email`. The API builds these links from `PUBLIC_WEB_URL`, which must be the site's
 domain.
 
@@ -154,22 +154,22 @@ domain.
 
 | Field | Value |
 | --- | --- |
-| Privacy Policy URL | `https://bibs.app/privacy` |
-| Support URL | `https://bibs.app/support` |
-| Marketing URL (optional) | `https://bibs.app/` |
-| License Agreement | Apple Standard EULA (default). The Terms reference it. Because BIBS sells auto-renewable subscriptions, end the App Store description with `Terms of Use (EULA): https://bibs.app/terms` and `Privacy Policy: https://bibs.app/privacy` (Guideline 3.1.2). |
-| User Privacy Choices URL (optional) | `https://bibs.app/delete-account` |
+| Privacy Policy URL | `https://getbibs.app/privacy` |
+| Support URL | `https://getbibs.app/support` |
+| Marketing URL (optional) | `https://getbibs.app/` |
+| License Agreement | Apple Standard EULA (default). The Terms reference it. Because BIBS sells auto-renewable subscriptions, end the App Store description with `Terms of Use (EULA): https://getbibs.app/terms` and `Privacy Policy: https://getbibs.app/privacy` (Guideline 3.1.2). |
+| User Privacy Choices URL (optional) | `https://getbibs.app/delete-account` |
 | App Review notes | Account deletion: More -> Your profile -> Account. Abuse reporting: More -> Report abuse or a problem. Provide a demo account. |
 
 ### Google Play Console
 
 | Field | Value |
 | --- | --- |
-| Privacy policy | `https://bibs.app/privacy` |
-| Data safety -> Delete account URL | `https://bibs.app/delete-account` |
-| Store listing -> Website | `https://bibs.app/` |
+| Privacy policy | `https://getbibs.app/privacy` |
+| Data safety -> Delete account URL | `https://getbibs.app/delete-account` |
+| Store listing -> Website | `https://getbibs.app/` |
 | Store listing -> Email | the support address |
-| Child safety standards (only for Social or Dating category) | `https://bibs.app/child-safety` |
+| Child safety standards (only for Social or Dating category) | `https://getbibs.app/child-safety` |
 
 The developer name shown in both stores should match the publisher named on the site
 (Iordan Robert-Adrian PFA).
@@ -177,11 +177,11 @@ The developer name shown in both stores should match the publisher named on the 
 ### App and API configuration
 
 ```
-EXPO_PUBLIC_TERMS_URL=https://bibs.app/terms
-EXPO_PUBLIC_PRIVACY_URL=https://bibs.app/privacy
-EXPO_PUBLIC_ACCOUNT_DELETION_URL=https://bibs.app/delete-account
-EXPO_PUBLIC_SUPPORT_EMAIL=support@bibs.app
-PUBLIC_WEB_URL=https://bibs.app            # API
+EXPO_PUBLIC_TERMS_URL=https://getbibs.app/terms
+EXPO_PUBLIC_PRIVACY_URL=https://getbibs.app/privacy
+EXPO_PUBLIC_ACCOUNT_DELETION_URL=https://getbibs.app/delete-account
+EXPO_PUBLIC_SUPPORT_EMAIL=support@getbibs.app
+PUBLIC_WEB_URL=https://getbibs.app            # API
 ```
 
 ### Child safety standards page
@@ -221,7 +221,7 @@ info, diagnostics, usage data, advertising data.
 ### Google Play Data safety
 
 - Collects user data: yes. Encrypted in transit: yes. Deletion: in app and at
-  `https://bibs.app/delete-account`.
+  `https://getbibs.app/delete-account`.
 - Shared with third parties: no (service providers acting on BIBS's behalf and user-initiated
   sharing within a team are not "sharing" under Play's definitions).
 - Not a Families app; target audience 16+.
