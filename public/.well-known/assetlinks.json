@@ -5,7 +5,7 @@
       "namespace": "android_app",
       "package_name": "app.bibs.mobile",
       "sha256_cert_fingerprints": [
-        "REPLACE:WITH:THE:APP:SIGNING:KEY:SHA256:FROM:PLAY:CONSOLE:OR:EAS:CREDENTIALS"
+        "2A:F1:3D:BF:8C:5A:EB:09:CC:09:FE:E9:DE:C9:3D:3B:1D:4F:D1:37:0D:BB:42:E2:27:E6:16:00:C9:5E:3E:45"
       ]
     }
   }
