@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "app.bibs.mobile",
       "sha256_cert_fingerprints": [
-        "2A:F1:3D:BF:8C:5A:EB:09:CC:09:FE:E9:DE:C9:3D:3B:1D:4F:D1:37:0D:BB:42:E2:27:E6:16:00:C9:5E:3E:45"
+        "2A:F1:3D:BF:8C:5A:EB:09:CC:09:FE:E9:DE:C9:3D:3B:1D:4F:D1:37:0D:BB:42:E2:27:E6:16:00:C9:5E:3E:45",
+        "D2:C6:19:4C:AE:DE:40:4D:6B:1A:7B:8C:D4:02:42:9A:84:6C:4D:43:3B:AC:B7:4E:85:4C:61:F5:9A:32:8E:17"
       ]
     }
   }
